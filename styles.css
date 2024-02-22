@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: radial-gradient(circle at center, purple, black)
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    background: rgba(0, 0, 0, 0.37);
+    width: 450px;
+    height: 350px;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    border-radius: 40px;
+    justify-content: center;
+    border: 4px solid rgba(255, 255, 255, 0.349);
+    box-shadow: 2px 2px 15px 5px rgba(0, 0, 0, 0.322);
+
+
+}
+
+h1 {
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 10px;
+    font-size: 26px
+}
+
+a {
+    font-size: 12px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+input {
+    width: 80%;
+    border-radius: 6px;
+    height: 35px;
+    border: none;
+    margin: 2px;
+    background: rgba(255, 255, 255, 0.116);
+    padding: 10px;
+    color: white;
+}
+
+button-type {
+    background-color: rgba(255, 255, 255, 0.192);
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 140px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.04s ease-in-out;
+    padding: 12px;
+}
+
+button-type:hover {
+    background-color: purple;
+    transform: scale(1.1);
+}
+
+input:hover {
+    background-color: purple;
+}
